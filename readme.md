@@ -45,3 +45,4 @@ git add -A              # Add all files
 - ```git commit -m "message"```
 - ```git merge <branch_name>```
 - ```git push origin <branch_name>```
+- ```git push origin --tags```
