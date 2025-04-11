@@ -22,6 +22,10 @@ git branch
 git checkout -b <branch_name>
 
 git merge  <branch_name> merges the specific branch with the branch you are currently in 
+
+git reset --hard goes to the last id (destructive)
+
+git push origin <branch_name> --force  force a push (destructive)
 ```
 Common Commands
 ```
@@ -46,3 +50,4 @@ git add -A              # Add all files
 - ```git merge <branch_name>```
 - ```git push origin <branch_name>```
 - ```git push origin --tags```
+- ``` git push origin <branch_name> --force```
